@@ -1,0 +1,47 @@
+<html>
+<body>
+<h1 align="center">Functions</h1>
+<script>
+function SHOW(firstname)
+{
+	function say()
+	{
+		alert("hello"+firstname);
+	}
+	return say();
+}
+SHOW("WT");
+function emp(id,name,salary)
+{
+	this.id=id;
+	this.name=name;
+	this.salary=salary;
+}
+e=new emp(118,"srinu giri",45000);
+document.write(e.id+" "+e.name+" "+e.salary+"<br>");
+function tp(n)
+{
+	if(n==1)
+	{
+		return false;
+	}
+	else if(n==2)
+	{
+		return true;
+	}
+	else
+	{
+		for(var x=2;x<n;x++)
+		{
+			if(n%x==0)
+			{
+				return false;
+			}
+		}
+	return true;
+	}
+}
+document.write(tp(37));
+</script>
+</body>
+</html>

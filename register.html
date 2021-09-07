@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head><title>registration page</title>
+	<style type="text/css">
+		body{
+			background-image: url(rn12.jpg);
+		}
+		.rama{
+              background-image: url(rn11.jpg);
+              background-repeat: no-repeat;
+		}
+		h1{
+			background-color: white;
+		}
+	</style>
+</head>
+<body bgcolor ="lightskyblue">
+	<h1 align="center">REGISTER FORM</h1>
+<table bgcolor="pink" align="center" class="rama" border="10">
+<form>
+<tr>
+<td><label>FIRSTNAME:</label></td>
+<td><input type="text" name="firstname"size="15"required></td></tr>
+<tr>
+<td><label>LASTNAME:</label></td>
+<td><input type="text" name="lastname"size="15"required></td></tr>
+<tr>
+<td>GENDER:</td>
+<tr><td><input type="radio"name="gender" id="male"required><label for="male">MALE</label></td></tr>
+<tr><td><input type="radio"name="gender" id="female"required><label for="female">FEMALE</label></td></tr>
+<tr><td><input type="radio"name="gender"id="other"required><label for="other">OTHER</label></td></tr></tr>
+<tr>
+<label>
+<td>DOB:</td>
+</label>
+<td><input type= "date" name="select date"required></td></tr>
+<tr>
+<td>EMAIL:</td>
+<td><input type="email"id="email" name="email"required></td></tr>
+<tr>
+<td><lable>PHONE:</lable></td>
+<td><input tupe="text" name="country code"value="+91"size="2"/>
+<input type="text" name="phone" size="10" placeholder="**********"required></td></tr>
+<tr>
+<td><label>ADDRESS:</label></td>
+<td><textarea cols="80" rows="3" value="address"required></textarea></td></tr>
+<tr>
+<td><label>FAV FOOD:</label></td><br>
+<tr><td><input type="checkbox" name="dbms">Chiken Biryani</td></tr>
+<tr><td><input type="checkbox" name="flat">Noodels</td></tr>
+<tr><td><input type="checkbox" name="coa">Chiken Pakodi</td></tr>
+<tr><td><input type="checkbox" name="wt">Panipuri</td></tr>
+<tr><td><input type="checkbox" name="or">FriedRice</td></tr>
+<tr><td><input type="checkbox" name="wtlab">VegMeals</td></tr></tr>
+<tr>
+<td><label>USERNAME</label></td>
+<td><input type="text" name="username" size="20"required></td></tr>
+<tr>
+<td>PASSWORD:</td>
+<td><input type="password" name="pass" id="pass"placeholder="************"required></td></tr>
+<tr>
+<td>CONFIRM PASS:</td>
+<td><input type=" password" name="repass" id="repass"placeholder="************"required></td></tr>
+<tr><td>SEQURITY QUESTION:</td>
+<td><select><option>what is your fav food</option>
+		    <option>what is your fav game</option>
+		    <option>what is your fav place</option></select></td></tr>
+<tr><td>ANSWER:</td>
+<td><select><option>biryani</option>
+			<option>shuttel</option>
+			<option>waterfall</option></select></td></tr>
+<tr>
+<td><label for="file-select">UPLOAD IMAGE:</label></td>
+<td><input type="file" name="upload"id="file-select"required></td></tr>
+<tr><td><label>REGISTER:</label>
+<input type="submit"required></td>
+<td><label>RESET:</label>
+<input type="reset"></td>
+</tr>
+</table>
+</form>
+</body>
+<html>

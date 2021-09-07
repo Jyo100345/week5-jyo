@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>looping statements</title>
+<style>
+h1
+{
+
+	text-align:center;
+	color:red;
+	font-size:40px;
+	border-width:20px;
+	border-style:solid;
+	border-color:navyblue;
+	background:purple;
+}
+body
+{
+	background:lightgreen;
+	color:green;
+	font-size:40px;
+}
+</style>
+</head>
+<body>
+<h1>looping statements in java script</h1>
+<h5>continue-break</h5>
+<script>
+var numbers=[65,66,89,86,12];
+for(number of numbers)
+{
+	if(number%2==0)
+	{
+		document.write(number+"is divisible by 2 <br>");
+	}
+	else
+	{
+		continue;
+		document.write(number+"is not divisible by 2<br>");
+	}
+}
+document.write("<br>");
+for(var i=10;i>=0;i--)
+{
+	if(i==4)
+	{
+		break;
+	}
+	else
+	{
+		document.write(i+"<br>");
+	}
+}
+</script>
+</body>
+</html>
+
+

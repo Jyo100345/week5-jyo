@@ -1,0 +1,47 @@
+<html>
+<title>Arrays</title>
+<style>
+h1
+{
+
+	text-align:center;
+	color:orange;
+	font-size:40px;
+	border-width:20px;
+	border-style:solid;
+	border-color:lightpink;
+	background:navyblue;
+}
+body
+{
+	background:skyblue;
+	color:green;
+	font-size:40px;
+}
+</style>
+<body>
+<h1>Arrays</h1>
+<p id="demo"></p>
+<button onclick="document.getElementById("demo").innerHTML=Date()">the time is?</button>
+<script>
+var i;
+var emp=new Array();
+emp[0]="jyo";
+emp[1]="tanu";
+emp[2]="srinu";
+for(i=0;i<emp.length;i++)
+{
+	document.write(emp[i]+"<br>");
+}
+var sn=new String("this is string form in javascript");
+var st=new String("By wt");
+document.write(sn+"<br>");
+document.write(sn.charAt(2)+"<br>");
+var s3=sn.concat(st);
+document.write(s3+"<br>"); 
+var fruits=["banana","apple","mango"];
+document.getElementById("demo").innerHTML=fruits.join("and");
+
+</script>
+</body>
+</html>
